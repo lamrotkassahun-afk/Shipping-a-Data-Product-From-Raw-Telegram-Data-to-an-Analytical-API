@@ -1,0 +1,28 @@
+name: 'medical_warehouse'
+version: '1.0.0'
+config-version: 2
+
+# This matches the profile name in your profiles.yml
+profile: 'medical_warehouse'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+   models:
+   medical_warehouse:
+    # This tells dbt to look in your 'models' folder
+    +materialized: view
+    staging:
+      +schema: staging
+    marts:
+      +materialized: table
+      +schema: marts

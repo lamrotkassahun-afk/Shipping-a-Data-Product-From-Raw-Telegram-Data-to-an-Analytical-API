@@ -1,0 +1,12 @@
+medical_warehouse:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5434
+      user: postgres
+      pass: postgres
+      dbname: medical_db
+      schema: staging
+  target: dev
