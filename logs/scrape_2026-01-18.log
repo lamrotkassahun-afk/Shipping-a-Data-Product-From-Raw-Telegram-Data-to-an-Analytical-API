@@ -1,1 +1,22 @@
 2026-01-18 11:49:16,143 - INFO - Telegram client initialized
+2026-01-18 12:54:04,732 - INFO - Telegram client initialized
+2026-01-18 12:55:01,091 - INFO - Telegram client initialized
+2026-01-18 13:05:56,939 - INFO - Telegram client initialized
+2026-01-18 13:06:33,832 - INFO - Client authenticated. Scraping 4 channels...
+2026-01-18 13:06:33,834 - INFO - Scraping @cheMed123...
+2026-01-18 13:06:34,011 - INFO - Starting scrape of @cheMed123 (limit=100)
+2026-01-18 13:09:37,049 - INFO - Finished scraping @cheMed123: 76 messages saved
+2026-01-18 13:09:40,053 - INFO - Scraping @lobelia4cosmetics...
+2026-01-18 13:09:40,181 - INFO - Starting scrape of @lobelia4cosmetics (limit=100)
+2026-01-18 13:13:22,248 - INFO - Finished scraping @lobelia4cosmetics: 100 messages saved
+2026-01-18 13:13:25,254 - INFO - Scraping @tikvahpharma...
+2026-01-18 13:13:25,385 - INFO - Starting scrape of @tikvahpharma (limit=100)
+2026-01-18 13:16:41,567 - INFO - Finished scraping @tikvahpharma: 100 messages saved
+2026-01-18 13:16:44,579 - INFO - Scraping @tenamereja...
+2026-01-18 13:16:44,701 - INFO - Starting scrape of @tenamereja (limit=100)
+2026-01-18 13:19:03,667 - INFO - Finished scraping @tenamereja: 100 messages saved
+2026-01-18 13:19:06,674 - INFO - Scraping complete. Total messages: 376
+2026-01-18 13:19:06,675 - INFO -   @cheMed123: 76 messages
+2026-01-18 13:19:06,675 - INFO -   @lobelia4cosmetics: 100 messages
+2026-01-18 13:19:06,676 - INFO -   @tikvahpharma: 100 messages
+2026-01-18 13:19:06,676 - INFO -   @tenamereja: 100 messages
