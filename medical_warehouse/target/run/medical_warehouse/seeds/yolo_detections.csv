@@ -1,0 +1,9 @@
+
+    
+    
+    truncate table "medical_db"."staging"."yolo_detections";
+    -- dbt seed --
+    
+
+;
+  

@@ -2,7 +2,7 @@
   
     
 
-  create  table "medical_db"."staging"."dim_channels__dbt_tmp"
+  create  table "medical_db"."staging_marts"."dim_channels__dbt_tmp"
   
   
     as
@@ -15,7 +15,7 @@ SELECT
     channel_name,
     channel_title,
     COUNT(message_id) AS total_messages
-FROM "medical_db"."staging"."stg_telegram_messages"
+FROM "medical_db"."staging_staging"."stg_telegram_messages"
 GROUP BY 1, 2, 3
   );
   

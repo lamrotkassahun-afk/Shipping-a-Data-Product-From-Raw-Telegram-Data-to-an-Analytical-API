@@ -3,11 +3,11 @@
 SELECT
     message_id,
     channel_name,
-    channel_title,  -- Ensure this matches the raw table column name
+    channel_title,
     CAST(message_date AS TIMESTAMP) AS message_date,
     message_text,
-    views,           -- Use 'views' here so the Marts can alias it
-    forwards,        -- Use 'forwards' here
+    views AS view_count,    -- Add 'AS view_count' to fix the error
+    forwards AS forward_count, -- Add 'AS forward_count' for consistency
     image_path
 FROM {{ source('raw', 'telegram_messages') }}
 WHERE message_id IS NOT NULL
