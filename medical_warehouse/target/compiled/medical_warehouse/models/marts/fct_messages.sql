@@ -7,4 +7,4 @@ SELECT
     message_text,
     views AS view_count,
     forwards AS forward_count
-FROM "medical_db"."staging"."stg_telegram_messages"
+FROM "medical_db"."staging_staging"."stg_telegram_messages"
