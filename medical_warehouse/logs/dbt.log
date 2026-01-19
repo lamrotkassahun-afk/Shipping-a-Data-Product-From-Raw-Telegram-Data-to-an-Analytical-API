@@ -3644,3 +3644,53 @@ truncate table "medical_db"."staging"."yolo_detections"
 [0m10:13:27.601935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029017D2D180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002901782C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002901782CB90>]}
 [0m10:13:27.602235 [debug] [MainThread]: Flushing usage events
 [0m10:13:28.634440 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:31:00.896657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAAAF1D400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAAC0BFED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAAC0BF9D0>]}
+
+
+============================== 10:31:00.906717 | 514ffcac-c655-4932-b95b-358b2c341fa8 ==============================
+[0m10:31:00.906717 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:31:00.908708 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\natna\\Downloads\\KAIM WEEK-8\\Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API\\medical_warehouse', 'invocation_command': 'dbt clean', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\natna\\Downloads\\KAIM WEEK-8\\Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API\\medical_warehouse\\logs'}
+[0m10:31:00.913663 [warn ] [MainThread]: [[33mWARNING[0m][MissingPlusPrefixDeprecation]: Deprecated functionality
+Missing '+' prefix on `models` found at `models` in file
+`C:\Users\natna\Downloads\KAIM WEEK-8\Shipping-a-Data-Product-From-Raw-Telegram-
+Data-to-an-Analytical-API\medical_warehouse\dbt_project.yml`. Hierarchical
+config values without a '+' prefix are deprecated in dbt_project.yml.
+[0m10:31:00.914538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '514ffcac-c655-4932-b95b-358b2c341fa8', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAABFA3360>]}
+[0m10:31:01.136623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '514ffcac-c655-4932-b95b-358b2c341fa8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAABF56250>]}
+[0m10:31:01.180777 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingPlusPrefixDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m10:31:01.181890 [debug] [MainThread]: Command `dbt clean` succeeded at 10:31:01.181725 after 0.43 seconds
+[0m10:31:01.182362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAAD34A050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAAD34A150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAAB9AC140>]}
+[0m10:31:01.182911 [debug] [MainThread]: Flushing usage events
+[0m10:31:02.323732 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:31:18.834303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E30625400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E32793ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E327939D0>]}
+
+
+============================== 10:31:18.838662 | 1eaedcbf-2693-4728-8b03-48827a30ce32 ==============================
+[0m10:31:18.838662 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:31:18.839842 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\natna\\Downloads\\KAIM WEEK-8\\Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API\\medical_warehouse', 'use_colors': 'True', 'invocation_command': 'dbt deps', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\natna\\Downloads\\KAIM WEEK-8\\Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API\\medical_warehouse\\logs'}
+[0m10:31:18.842174 [warn ] [MainThread]: [[33mWARNING[0m][MissingPlusPrefixDeprecation]: Deprecated functionality
+Missing '+' prefix on `models` found at `models` in file
+`C:\Users\natna\Downloads\KAIM WEEK-8\Shipping-a-Data-Product-From-Raw-Telegram-
+Data-to-an-Analytical-API\medical_warehouse\dbt_project.yml`. Hierarchical
+config values without a '+' prefix are deprecated in dbt_project.yml.
+[0m10:31:18.842805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '1eaedcbf-2693-4728-8b03-48827a30ce32', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E3169F360>]}
+[0m10:31:18.964532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1eaedcbf-2693-4728-8b03-48827a30ce32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E31656250>]}
+[0m10:31:19.008867 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:31:19.010248 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:31:19.011011 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingPlusPrefixDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m10:31:19.012227 [debug] [MainThread]: Command `dbt deps` succeeded at 10:31:19.012104 after 0.30 seconds
+[0m10:31:19.012543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E31613C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E3298AD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E327B24E0>]}
+[0m10:31:19.012846 [debug] [MainThread]: Flushing usage events
+[0m10:31:19.960144 [debug] [MainThread]: An error was encountered while trying to flush usage events
