@@ -1,0 +1,2 @@
+2026-01-20 21:17:11,082 - MedicalAPI - INFO - Method: GET Path: /docs Status: 200 Duration: 0.00s
+2026-01-20 21:18:20,508 - MedicalAPI - INFO - Method: GET Path: /openapi.json Status: 200 Duration: 0.01s
